@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from notify import send
 
 # 只为测试用
-os.environ['check_urls'] = 'https://www.aitanqin.com,https://www.aitanqin.com/guitar/'
+# os.environ['check_urls'] = 'https://www.baidu.com,https://www.hao123.com'
 
 
 def check_dead_links(url):
